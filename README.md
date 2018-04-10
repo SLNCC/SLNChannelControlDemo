@@ -1,2 +1,6 @@
 # SLNChannelControlDemo
 频道的选择和排序
+
+UICollectionViewCell用来设置样式
+UICollectionViewFlowLayout进行布局
+UICollectionView其特性
