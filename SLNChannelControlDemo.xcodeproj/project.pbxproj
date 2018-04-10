@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8F44D5F1FCC0A04009CBDEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F44D5E1FCC0A04009CBDEA /* AppDelegate.m */; };
+		D8F44D621FCC0A04009CBDEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F44D611FCC0A04009CBDEA /* ViewController.m */; };
+		D8F44D651FCC0A04009CBDEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F44D631FCC0A04009CBDEA /* Main.storyboard */; };
+		D8F44D671FCC0A04009CBDEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F44D661FCC0A04009CBDEA /* Assets.xcassets */; };
+		D8F44D6A1FCC0A04009CBDEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F44D681FCC0A04009CBDEA /* LaunchScreen.storyboard */; };
+		D8F44D6D1FCC0A04009CBDEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F44D6C1FCC0A04009CBDEA /* main.m */; };
+		D8F44D771FCC0A04009CBDEA /* SLNChannelControlDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F44D761FCC0A04009CBDEA /* SLNChannelControlDemoTests.m */; };
+		D8F44D821FCC0A04009CBDEA /* SLNChannelControlDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F44D811FCC0A04009CBDEA /* SLNChannelControlDemoUITests.m */; };
+		D8F44D921FCC0F97009CBDEA /* NTVChannelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F44D901FCC0F97009CBDEA /* NTVChannelItem.m */; };
+		D8F44D931FCC0F97009CBDEA /* NTVChannelItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8F44D911FCC0F97009CBDEA /* NTVChannelItem.xib */; };
+		D8F44D961FCD334D009CBDEA /* NTVChannelHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F44D951FCD334D009CBDEA /* NTVChannelHeader.m */; };
+		D8F44D991FCD3A55009CBDEA /* NTVChooseChannelController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F44D981FCD3A55009CBDEA /* NTVChooseChannelController.m */; };
+		D8F44D9F1FCD3EF1009CBDEA /* NTVChannelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F44D9E1FCD3EF1009CBDEA /* NTVChannelModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8F44D731FCC0A04009CBDEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8F44D521FCC0A04009CBDEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8F44D591FCC0A04009CBDEA;
+			remoteInfo = SLNChannelControlDemo;
+		};
+		D8F44D7E1FCC0A04009CBDEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8F44D521FCC0A04009CBDEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8F44D591FCC0A04009CBDEA;
+			remoteInfo = SLNChannelControlDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8F44D5A1FCC0A04009CBDEA /* SLNChannelControlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLNChannelControlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F44D5D1FCC0A04009CBDEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8F44D5E1FCC0A04009CBDEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8F44D601FCC0A04009CBDEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D8F44D611FCC0A04009CBDEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D8F44D641FCC0A04009CBDEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8F44D661FCC0A04009CBDEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8F44D691FCC0A04009CBDEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8F44D6B1FCC0A04009CBDEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8F44D6C1FCC0A04009CBDEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8F44D721FCC0A04009CBDEA /* SLNChannelControlDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLNChannelControlDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F44D761FCC0A04009CBDEA /* SLNChannelControlDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLNChannelControlDemoTests.m; sourceTree = "<group>"; };
+		D8F44D781FCC0A04009CBDEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8F44D7D1FCC0A04009CBDEA /* SLNChannelControlDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLNChannelControlDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F44D811FCC0A04009CBDEA /* SLNChannelControlDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLNChannelControlDemoUITests.m; sourceTree = "<group>"; };
+		D8F44D831FCC0A04009CBDEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8F44D8F1FCC0F97009CBDEA /* NTVChannelItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTVChannelItem.h; sourceTree = "<group>"; };
+		D8F44D901FCC0F97009CBDEA /* NTVChannelItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTVChannelItem.m; sourceTree = "<group>"; };
+		D8F44D911FCC0F97009CBDEA /* NTVChannelItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NTVChannelItem.xib; sourceTree = "<group>"; };
+		D8F44D941FCD334D009CBDEA /* NTVChannelHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTVChannelHeader.h; sourceTree = "<group>"; };
+		D8F44D951FCD334D009CBDEA /* NTVChannelHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTVChannelHeader.m; sourceTree = "<group>"; };
+		D8F44D971FCD3A55009CBDEA /* NTVChooseChannelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTVChooseChannelController.h; sourceTree = "<group>"; };
+		D8F44D981FCD3A55009CBDEA /* NTVChooseChannelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTVChooseChannelController.m; sourceTree = "<group>"; };
+		D8F44D9D1FCD3EF1009CBDEA /* NTVChannelModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTVChannelModel.h; sourceTree = "<group>"; };
+		D8F44D9E1FCD3EF1009CBDEA /* NTVChannelModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTVChannelModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8F44D571FCC0A04009CBDEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F44D6F1FCC0A04009CBDEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F44D7A1FCC0A04009CBDEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8F44D511FCC0A04009CBDEA = {
+			isa = PBXGroup;
+			children = (
+				D8F44D5C1FCC0A04009CBDEA /* SLNChannelControlDemo */,
+				D8F44D751FCC0A04009CBDEA /* SLNChannelControlDemoTests */,
+				D8F44D801FCC0A04009CBDEA /* SLNChannelControlDemoUITests */,
+				D8F44D5B1FCC0A04009CBDEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8F44D5B1FCC0A04009CBDEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8F44D5A1FCC0A04009CBDEA /* SLNChannelControlDemo.app */,
+				D8F44D721FCC0A04009CBDEA /* SLNChannelControlDemoTests.xctest */,
+				D8F44D7D1FCC0A04009CBDEA /* SLNChannelControlDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8F44D5C1FCC0A04009CBDEA /* SLNChannelControlDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D8F44D5D1FCC0A04009CBDEA /* AppDelegate.h */,
+				D8F44D5E1FCC0A04009CBDEA /* AppDelegate.m */,
+				D8F44D601FCC0A04009CBDEA /* ViewController.h */,
+				D8F44D611FCC0A04009CBDEA /* ViewController.m */,
+				D8F44D9D1FCD3EF1009CBDEA /* NTVChannelModel.h */,
+				D8F44D9E1FCD3EF1009CBDEA /* NTVChannelModel.m */,
+				D8F44D971FCD3A55009CBDEA /* NTVChooseChannelController.h */,
+				D8F44D981FCD3A55009CBDEA /* NTVChooseChannelController.m */,
+				D8F44D941FCD334D009CBDEA /* NTVChannelHeader.h */,
+				D8F44D951FCD334D009CBDEA /* NTVChannelHeader.m */,
+				D8F44D8F1FCC0F97009CBDEA /* NTVChannelItem.h */,
+				D8F44D901FCC0F97009CBDEA /* NTVChannelItem.m */,
+				D8F44D911FCC0F97009CBDEA /* NTVChannelItem.xib */,
+				D8F44D631FCC0A04009CBDEA /* Main.storyboard */,
+				D8F44D661FCC0A04009CBDEA /* Assets.xcassets */,
+				D8F44D681FCC0A04009CBDEA /* LaunchScreen.storyboard */,
+				D8F44D6B1FCC0A04009CBDEA /* Info.plist */,
+				D8F44D6C1FCC0A04009CBDEA /* main.m */,
+			);
+			path = SLNChannelControlDemo;
+			sourceTree = "<group>";
+		};
+		D8F44D751FCC0A04009CBDEA /* SLNChannelControlDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8F44D761FCC0A04009CBDEA /* SLNChannelControlDemoTests.m */,
+				D8F44D781FCC0A04009CBDEA /* Info.plist */,
+			);
+			path = SLNChannelControlDemoTests;
+			sourceTree = "<group>";
+		};
+		D8F44D801FCC0A04009CBDEA /* SLNChannelControlDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8F44D811FCC0A04009CBDEA /* SLNChannelControlDemoUITests.m */,
+				D8F44D831FCC0A04009CBDEA /* Info.plist */,
+			);
+			path = SLNChannelControlDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8F44D591FCC0A04009CBDEA /* SLNChannelControlDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F44D861FCC0A04009CBDEA /* Build configuration list for PBXNativeTarget "SLNChannelControlDemo" */;
+			buildPhases = (
+				D8F44D561FCC0A04009CBDEA /* Sources */,
+				D8F44D571FCC0A04009CBDEA /* Frameworks */,
+				D8F44D581FCC0A04009CBDEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLNChannelControlDemo;
+			productName = SLNChannelControlDemo;
+			productReference = D8F44D5A1FCC0A04009CBDEA /* SLNChannelControlDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8F44D711FCC0A04009CBDEA /* SLNChannelControlDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F44D891FCC0A04009CBDEA /* Build configuration list for PBXNativeTarget "SLNChannelControlDemoTests" */;
+			buildPhases = (
+				D8F44D6E1FCC0A04009CBDEA /* Sources */,
+				D8F44D6F1FCC0A04009CBDEA /* Frameworks */,
+				D8F44D701FCC0A04009CBDEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8F44D741FCC0A04009CBDEA /* PBXTargetDependency */,
+			);
+			name = SLNChannelControlDemoTests;
+			productName = SLNChannelControlDemoTests;
+			productReference = D8F44D721FCC0A04009CBDEA /* SLNChannelControlDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8F44D7C1FCC0A04009CBDEA /* SLNChannelControlDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F44D8C1FCC0A04009CBDEA /* Build configuration list for PBXNativeTarget "SLNChannelControlDemoUITests" */;
+			buildPhases = (
+				D8F44D791FCC0A04009CBDEA /* Sources */,
+				D8F44D7A1FCC0A04009CBDEA /* Frameworks */,
+				D8F44D7B1FCC0A04009CBDEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8F44D7F1FCC0A04009CBDEA /* PBXTargetDependency */,
+			);
+			name = SLNChannelControlDemoUITests;
+			productName = SLNChannelControlDemoUITests;
+			productReference = D8F44D7D1FCC0A04009CBDEA /* SLNChannelControlDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8F44D521FCC0A04009CBDEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = XinHuaTV;
+				TargetAttributes = {
+					D8F44D591FCC0A04009CBDEA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					D8F44D711FCC0A04009CBDEA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D8F44D591FCC0A04009CBDEA;
+					};
+					D8F44D7C1FCC0A04009CBDEA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D8F44D591FCC0A04009CBDEA;
+					};
+				};
+			};
+			buildConfigurationList = D8F44D551FCC0A04009CBDEA /* Build configuration list for PBXProject "SLNChannelControlDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8F44D511FCC0A04009CBDEA;
+			productRefGroup = D8F44D5B1FCC0A04009CBDEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8F44D591FCC0A04009CBDEA /* SLNChannelControlDemo */,
+				D8F44D711FCC0A04009CBDEA /* SLNChannelControlDemoTests */,
+				D8F44D7C1FCC0A04009CBDEA /* SLNChannelControlDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8F44D581FCC0A04009CBDEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F44D6A1FCC0A04009CBDEA /* LaunchScreen.storyboard in Resources */,
+				D8F44D671FCC0A04009CBDEA /* Assets.xcassets in Resources */,
+				D8F44D651FCC0A04009CBDEA /* Main.storyboard in Resources */,
+				D8F44D931FCC0F97009CBDEA /* NTVChannelItem.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F44D701FCC0A04009CBDEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F44D7B1FCC0A04009CBDEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8F44D561FCC0A04009CBDEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F44D621FCC0A04009CBDEA /* ViewController.m in Sources */,
+				D8F44D961FCD334D009CBDEA /* NTVChannelHeader.m in Sources */,
+				D8F44D9F1FCD3EF1009CBDEA /* NTVChannelModel.m in Sources */,
+				D8F44D991FCD3A55009CBDEA /* NTVChooseChannelController.m in Sources */,
+				D8F44D6D1FCC0A04009CBDEA /* main.m in Sources */,
+				D8F44D5F1FCC0A04009CBDEA /* AppDelegate.m in Sources */,
+				D8F44D921FCC0F97009CBDEA /* NTVChannelItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F44D6E1FCC0A04009CBDEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F44D771FCC0A04009CBDEA /* SLNChannelControlDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F44D791FCC0A04009CBDEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F44D821FCC0A04009CBDEA /* SLNChannelControlDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8F44D741FCC0A04009CBDEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8F44D591FCC0A04009CBDEA /* SLNChannelControlDemo */;
+			targetProxy = D8F44D731FCC0A04009CBDEA /* PBXContainerItemProxy */;
+		};
+		D8F44D7F1FCC0A04009CBDEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8F44D591FCC0A04009CBDEA /* SLNChannelControlDemo */;
+			targetProxy = D8F44D7E1FCC0A04009CBDEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8F44D631FCC0A04009CBDEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8F44D641FCC0A04009CBDEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8F44D681FCC0A04009CBDEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8F44D691FCC0A04009CBDEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8F44D841FCC0A04009CBDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8F44D851FCC0A04009CBDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8F44D871FCC0A04009CBDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXRG394Q55;
+				INFOPLIST_FILE = SLNChannelControlDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinhuashixun.SLNChannelControlDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8F44D881FCC0A04009CBDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXRG394Q55;
+				INFOPLIST_FILE = SLNChannelControlDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinhuashixun.SLNChannelControlDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D8F44D8A1FCC0A04009CBDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXRG394Q55;
+				INFOPLIST_FILE = SLNChannelControlDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinhuashixun.SLNChannelControlDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLNChannelControlDemo.app/SLNChannelControlDemo";
+			};
+			name = Debug;
+		};
+		D8F44D8B1FCC0A04009CBDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXRG394Q55;
+				INFOPLIST_FILE = SLNChannelControlDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinhuashixun.SLNChannelControlDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLNChannelControlDemo.app/SLNChannelControlDemo";
+			};
+			name = Release;
+		};
+		D8F44D8D1FCC0A04009CBDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXRG394Q55;
+				INFOPLIST_FILE = SLNChannelControlDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinhuashixun.SLNChannelControlDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SLNChannelControlDemo;
+			};
+			name = Debug;
+		};
+		D8F44D8E1FCC0A04009CBDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXRG394Q55;
+				INFOPLIST_FILE = SLNChannelControlDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinhuashixun.SLNChannelControlDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SLNChannelControlDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8F44D551FCC0A04009CBDEA /* Build configuration list for PBXProject "SLNChannelControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F44D841FCC0A04009CBDEA /* Debug */,
+				D8F44D851FCC0A04009CBDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8F44D861FCC0A04009CBDEA /* Build configuration list for PBXNativeTarget "SLNChannelControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F44D871FCC0A04009CBDEA /* Debug */,
+				D8F44D881FCC0A04009CBDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8F44D891FCC0A04009CBDEA /* Build configuration list for PBXNativeTarget "SLNChannelControlDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F44D8A1FCC0A04009CBDEA /* Debug */,
+				D8F44D8B1FCC0A04009CBDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8F44D8C1FCC0A04009CBDEA /* Build configuration list for PBXNativeTarget "SLNChannelControlDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F44D8D1FCC0A04009CBDEA /* Debug */,
+				D8F44D8E1FCC0A04009CBDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8F44D521FCC0A04009CBDEA /* Project object */;
+}
